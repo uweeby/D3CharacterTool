@@ -1,7 +1,6 @@
 import java.awt.image.BufferedImage;  
 import java.util.ArrayList; 
 import java.util.HashMap; 
-
 import net.sourceforge.javaocr.gui.GUIController; 
 import net.sourceforge.javaocr.gui.meanSquareOCR.TrainingImageSpec; 
 import net.sourceforge.javaocr.ocrPlugins.mseOCR.CharacterRange; 
@@ -9,7 +8,8 @@ import net.sourceforge.javaocr.ocrPlugins.mseOCR.OCRScanner;
 import net.sourceforge.javaocr.ocrPlugins.mseOCR.TrainingImage;  
 
 public class JavaOCR {
-	//Create array to hold character data
+	
+	//Declare Variables
 	String[] tempArray = new String[28]; 
 	
 	public String[] startOCR(BufferedImage input) {
@@ -57,8 +57,6 @@ public class JavaOCR {
 				e.printStackTrace();
 			}
 		
-		//String separated by \n
 		return tempArray;
-		
 		} 
 	}

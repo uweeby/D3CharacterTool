@@ -81,7 +81,5 @@ public class PrintCharacter {
 //		System.out.println("LightningMitigation " + characterdata.LightningMitigation);
 //		System.out.println("PoisonMitigation " + characterdata.PoisonMitigation);
 //		System.out.println("ArcaneHolyMitigation " + characterdata.ArcaneHolyMitigation);
-
-		
 	}
 }

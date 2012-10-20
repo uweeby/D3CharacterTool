@@ -1,4 +1,6 @@
 public class CharacterData {
+	
+	//Declare Variables
 	String[] CharacterDataStringArray = new String[28];
 	double DamageIncreasedbyStrenght; //Percentage and two Decimal
 	double DamageIncreasebySkills; //Percentage and two Decimal

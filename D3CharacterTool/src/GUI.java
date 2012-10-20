@@ -4,6 +4,7 @@ import javax.swing.*;
 @SuppressWarnings("serial")
 public class GUI extends JFrame {
 	
+	//Declare Variables
 	public String[] textAreaArray = new String[33];
 	private JButton testbutton;
 	public JTextArea field;
@@ -27,14 +28,12 @@ public class GUI extends JFrame {
 		button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
             	//JButton to activate capture
-            	textAreaArray = D3CharTool.startCapture();
+            	textAreaArray = ImageCapture.StartCapture();
             	
             	//Send the character information to the text area
-            	//This is a temporary GUI setup
             	for (int i = 0; i < textAreaArray.length; i++) {
             		field.append(textAreaArray[i]);
             	}
-
             }
         });
 	}
